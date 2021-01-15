@@ -76,13 +76,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(103, 176, 209, 0.8);
+  background: #709340;
   padding: 0;
 }
 
 #header .logo h1 {
   font-size: 24px;
-  margin: 0;
+  margin-left: 18px;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #2f4d5a;
+  color:white;
   padding: 20px 15px;
   transition: 0.3s;
   font-size: 13px;
@@ -343,16 +343,16 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/Banner.png") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
 }
 
 #hero .hero-container {
-  position: absolute;
+  position:absolute;
   bottom: 0;
-  top: 0;
+  top: -100px;
   left: 0;
   right: 0;
   display: flex;
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.3s ease-in-out;
   margin: 10px;
-  width: 64px;
+  width: 60px;
   height: 64px;
   text-align: center;
   border: 2px solid #fff;

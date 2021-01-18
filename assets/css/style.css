@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Banner.png") top center;
+  background: url("../img/Banner.png") center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -426,7 +426,8 @@ section {
 }
 
 .section-bg {
-  background-color: #f4f9fc;
+  background: #1b4215;
+
 }
 
 .section-title {
@@ -436,10 +437,11 @@ section {
 
 .section-title h2 {
   font-size: 32px;
+  font-family :Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   position: relative;
   margin-bottom: 30px;
-  color: #2f4d5a;
+  color:black;
   z-index: 2;
 }
 
@@ -721,8 +723,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
-  background-size: cover;
+  background: linear-gradient(#408a42cc, #263f49);
   padding: 60px 0;
 }
 
@@ -733,6 +734,8 @@ section {
 }
 
 .cta p {
+  text-align: left;
+  margin-top: 16px;
   color: #fff;
 }
 
@@ -961,7 +964,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color:white;
 }
 
 .testimonials .testimonial-item h4 {
@@ -971,7 +974,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #d5e9f2;
+  color:#fddf70;
   font-size: 26px;
 }
 
@@ -992,11 +995,11 @@ section {
   font-style: italic;
   margin: 0 15px 15px 15px;
   padding: 20px;
-  background: #fff;
+  background:white;
   position: relative;
   margin-bottom: 35px;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.616);
 }
 
 .testimonials .testimonial-item p::after {
@@ -1012,13 +1015,13 @@ section {
 }
 
 .testimonials .owl-nav, .testimonials .owl-dots {
-  margin-top: 5px;
+  margin-top: -50px;
   text-align: center;
 }
 
 .testimonials .owl-dot {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 10px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -1026,7 +1029,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #67b0d1 !important;
+  background-color: #fddf70 !important; 
 }
 
 @media (max-width: 767px) {

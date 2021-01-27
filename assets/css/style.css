@@ -377,6 +377,10 @@ h6 {
 	text-align: center;
 }
 
+.registration-btn {
+	background: #dfa929;
+}
+
 #hero h1 {
 	margin: 0 0 10px 0;
 	font-size: 64px;
